@@ -420,8 +420,8 @@ LOGBACK: No context given for c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@2
 2022-04-17 19:17:51 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-04-17 19:17:51 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2022-04-17 19:17:51 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 16 ms
-2022-04-17 19:17:53 [http-nio-8080-exec-1] INFO  com.datadoghq.pej.MqttController - Publish/subscribe steps in Controller
-2022-04-17 19:17:53 [MQTT Call: COMP10619] INFO  com.datadoghq.pej.MessagingService - Message received: This is a sample message published to topic pejman/topic/event
+2022-04-17 19:17:53 [http-nio-8080-exec-1] INFO  com.datadoghq.pej.controller.MqttController - Publish/subscribe steps in Controller
+2022-04-17 19:17:53 [MQTT Call: COMP10619] INFO  com.datadoghq.pej.service.MessagingService - Message received: This is a sample message published to topic pejman/topic/event
 ````
 
 In particular, the last line of these log events displays the message received.
